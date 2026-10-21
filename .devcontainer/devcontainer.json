@@ -1,0 +1,7 @@
+{
+  "name": "Pantry lab (Python and FastAPI)",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8000],
+  "portsAttributes": { "8000": { "label": "Pantry", "onAutoForward": "openPreview" } }
+}
